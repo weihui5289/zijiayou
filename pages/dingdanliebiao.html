@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>订单列表</title>
+    <script>
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+    </script>
+    <link rel="stylesheet" href="../css/dingdanliebiao.css" />
+    </head>
+    <body>
+
+        <div class="wrap">
+            <div class="top clearfix">
+                 <a href="../index.html"><img src="../images/back.jpg" alt="" /></a>
+                <h1>订单列表</h1>
+                <a href="../index.html">保存</a>
+            </div>
+
+            <div class="down clearfix">
+                <div>
+                    <select id="myselect">
+                        <option value="1">全部分类</option>
+                        <option value="2">全部分类</option>
+                        <option value="3">待出行</option>
+                        <option value="4">待支付</option>
+                        <option value="5">带出行</option>
+                        <option value="6">已取消</option>
+                    </select>
+                </div>
+
+            <div>
+                 <select id="myselect1">
+                    <option value="1">按时间顺序</option>
+                    <option value="2">按下单顺序</option>
+                    <option value="3">按出行排序</option>
+
+                </select>
+            </div>
+
+
+            </div>
+            <div class="down-last">
+                <ul class="all">
+                    <li><a href="#">全部分类</a></li>
+                    <li><a href="#">待出行</a></li>
+                    <li><a href="#">待支付</a></li>
+                    <li><a href="#">待评价</a></li>
+                    <li><a href="#">已取消</a></li>
+                </ul>
+                <ul class="shunxu">
+                    <li><a href="#">按下单排序</a></li>
+                    <li><a href="#">按出行时间排序</a></li>
+                </ul>
+
+            </div>
+
+
+
+        <div class="main">
+        <a href="dingdanxiangqing.html"><div class='min show1'>
+            <div class='ding'>
+                <ul class='clearfix'>
+                    <li>订单编号：7195351</li>
+                    <li>待出行</li>
+                    <li>预定时间:2015-12-29 12:04:00</li>
+                </ul>
+            </div>
+            <div class='xian'></div>
+            <p>[春节]<魅力湘西过大年>湘西年夜饭，北京直飞</p>
+            <span>自驾游</span>
+            <p>2016-02-07出发</p>
+            <span>￥</span>
+            <p>4580</p>
+            <div class='xian-1'><span>待出行</span>
+            <select class='do'>
+                <option value="">取消</option>
+                <option value="">点评</option>
+                <option value="">付款</option>
+            </select></div>
+
+            </div>
+        </div></a>
+    <!-- <!-- -------------------2------------ -->
+        <div class="main">
+             <a href="dingdanxiangqing.html"><div class='min show2'>
+            <div class='ding'>
+                <ul class='clearfix'>
+                    <li>订单编号：7195351</li>
+                    <li>待支付</li>
+                    <li>预定时间:2015-12-28 12:04:00</li>
+                </ul>
+            </div>
+            <div class='xian'></div>
+            <p>[5月]<阿尔山童话世界冰雪温泉之旅>北京直飞</p>
+            <span>自驾游</span>
+            <p>2016-05-07出发</p>
+            <span>￥</span>
+            <p>4580</p>
+            <div class='xian-1'><select class='do'>
+                <option value="">付款</option>
+                <option value="">点评</option>
+                <option value="">取消</option>
+            </select>
+            <span>待支付</span>
+            </div>
+            </div>
+        </div>
+        </a>
+    <!-- ---------------3--------------- -->
+        <div class="main">
+            <a href="dingdanxiangqing.html"> <div class='min'>
+            <div class='ding'>
+                <ul class='clearfix'>
+                    <li>订单编号：7195351</li>
+                    <li>待评价</li>
+                    <li>预定时间:2015-12-27 12:04:00</li>
+                </ul>
+            </div>
+            <div class='xian'></div>
+            <p>[4月]<海南海岛环驾8日自驾之旅>北京直飞...</p>
+            <span>自驾游</span>
+            <p>2016-04-07出发</p>
+            <span>￥</span>
+            <p>4580</p>
+            <div class='xian-1'><span>待评价</span>
+            <select class='do'>
+                <option value="">点评</option>
+                <option value="">付款</option>
+                <option value="">取消</option>
+            </select></div>
+
+            </div>
+        </div></a>
+        <!-- 4 -->
+        <div class="main">
+             <a href="dingdanxiangqing.html"><div class='min'>
+            <div class='ding'>
+                <ul class='clearfix'>
+                    <li>订单编号：7195351</li>
+                    <li>已取消</li>
+                    <li>预定时间:2015-12-25 12:04:00</li>
+                </ul>
+            </div>
+            <div class='xian'></div>
+            <p>[5月]<食在广东粤菜美食6日自驾>北京直飞...</p>
+            <span>自驾游</span>
+            <p>2016-05-07出发</p>
+            <span>￥</span>
+            <p>4580</p>
+            <div class='xian-1'><span>已取消</span>
+            <select class='do'>
+                <option value="">查看</option>
+                <option value="">点评</option>
+                <option value="">取消</option>
+            </select>
+                </div>
+
+            </div>
+        </div></a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    <script>
+        document.querySelector("#myselect").onclick=function(){
+            document.querySelector(".all").style.display="block"
+             document.querySelector(".shunxu").style.display="none"
+             document.querySelector(".show1,.show2").style.display="none"
+        }
+
+         document.querySelector("#myselect1").onclick=function(){
+            document.querySelector(".shunxu").style.display="block"
+             document.querySelector(".all").style.display="none"
+
+             document.querySelector(".show1").style.display="none"
+
+
+        }
+
+    </script>
+    </body>
+</html>

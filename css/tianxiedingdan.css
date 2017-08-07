@@ -1,0 +1,446 @@
+  html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;}
+
+    .clearfix:before,
+    .clearfix:after {
+    content: "";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/}
+
+    .clearfix { *zoom:1;}   /*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
+
+      body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"微软雅黑"!important;}
+
+    .top {
+        width: 6.4rem;
+        height: 0.9rem;
+        background-color:#50bbdb;
+    }
+
+    .top>a img{
+        width: 0.88rem;
+        height: 0.88rem;
+        display: block;
+        float:left;
+     }
+
+    .top h1{
+        font-size:0.3rem;
+        color:#eff0fb;
+        float:left;
+        line-height:0.9rem;
+        margin:0 0 0 1.38rem;
+     }
+
+       .down p{
+        font-size: 0.26rem;
+        line-height: 0.55rem;
+        margin-right: 0.17rem;
+        float: left;
+    }
+
+    .main{
+        width: 6.4rem;
+        background-color:#ececec;
+        margin:0 auto;
+        padding:0.2rem 0;
+    }
+    .main-con,.xianlu{
+        width: 6rem;
+        margin:0 auto;
+        background-color: #fff;
+        border-radius:5px;
+        margin-top:0.15rem;
+
+    }
+    .main-top{
+        width: 6.04rem;
+        border-bottom: 1px solid #ededed;
+        padding-bottom: 10px;
+    }
+    .main-top div:nth-child(1){
+        width: 3px;
+        height: 0.35rem;
+        background-color: #50bbdb;
+        float: left;
+        margin-left: 12px;
+        margin-top: 0.16rem;
+    }
+    .main-top b{
+        font-size: 0.27rem;
+        float: left;
+        margin-top: 0.16rem;
+        margin-left: 0.21rem;
+    }
+    .main-top a{
+        display: block;
+        text-decoration: none;
+        font-size: 0.27rem;
+        float: right;
+        margin-top: 0.16rem;
+        color:#50bbdb;
+        margin-right:0.2rem;
+
+    }
+ /*   .main-top p{
+        font-size: 0.27rem;
+        color:#72bbce;
+        float: right;
+        margin-top: 0.16rem;
+        margin-right: 0.3rem;
+    }*/
+    .main-down{
+        width: 6.04rem;
+        padding-bottom:0.2rem;
+    }
+    .main-down p{
+        font-size: 0.22rem;
+        float: left;
+        margin-left: 0.38rem;
+        margin-top: 0.22rem;
+    }
+
+    .main-down .select{
+        width: 5rem;
+        float:left;
+        margin-top:0.16rem;
+    }
+
+    .main-down .select button{
+        display: block;
+        width: 0.34rem;
+        line-height: 0.28rem;
+        float:left;
+        font-size:0.26rem;
+        background-color: #fff;
+        color:#91d1f5;
+        outline:0;
+
+
+
+    }
+
+    .main-down .select input{
+        display: block;
+        width: 0.34rem;
+        line-height: 0.28rem;
+        float:left;
+        font-size:0.26rem;
+        text-align:center;
+        border:1px solid #cecece;
+        outline:0;
+
+    }
+
+    .main-down .select i{
+        font-style:normal;
+        font-size:0.22rem;
+        float:left;
+    }
+
+
+
+    .main-down span{
+        display: block;
+        font-size: 0.22rem;
+        float: left;
+        margin-top: 0.22rem;
+        margin-right: 2.14rem;
+    }
+    #right{
+        margin-right: 3rem;
+    }
+
+    .main-down a{
+        font-size: 0.22rem;
+        color: #50bbdb;
+        line-height: 0.34rem;
+        text-align: center;
+        border: 1px solid #ededed;
+        float: left;
+        width: 0.8rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top:0.15rem;
+    }
+
+    .main-down ul{
+        width: 5.54rem;
+        margin:0 auto;
+        list-style:none;
+    }
+
+    .main-down ul li{
+        line-height: 0.43rem;
+        border-bottom:1px solid #dbdbdb;
+        font-size:0.22rem;
+    }
+
+
+    .main-top1{
+        width: 6.04rem;
+        border-bottom: 1px solid #ededed;
+        padding-bottom: 10px;
+    }
+
+    .main-top1 div:nth-child(1){
+        width: 3px;
+        height: 0.35rem;
+        background-color: #50bbdb;
+        float: left;
+        margin-left: 12px;
+        margin-top: 0.16rem;
+    }
+    .main-top1 b{
+        font-size: 0.27rem;
+        float: left;
+        margin-top: 0.16rem;
+        margin-left: 0.21rem;
+    }
+
+
+    .main-down li>img{
+        width: 0.35rem;
+        height: 0.47rem;
+         padding-right:0.2rem;
+
+    }
+    .downdown ul li{
+        font-size: 0.3rem;
+
+    }
+
+    .downdown>a{
+        display: block;
+        width: 0.27rem;
+        height: 0.27rem;
+        margin-left:2.5rem;
+
+
+    }
+
+    .price>div{
+        width:4.6rem;
+        overflow:hidden;
+        float:left;
+
+    }
+
+    .price>div:last-child{
+        width: 1.4rem;
+    }
+
+    .price>div input{
+        display: block;
+        width: 0.3rem;
+        height: 0.3rem;
+        float:left;
+        margin:0.4rem 0.2rem 0.2rem 0.2rem;
+
+
+    }
+
+    .price>div p{
+        width: 3.8rem;
+        line-height:0.48rem;
+        font-size:0.26rem;
+        float:left;
+        margin-left:-0.05rem;
+     }
+
+    .price>div:last-child a{
+        display: block;
+        width: 0.7rem;
+        line-height:0.5rem;
+        font-size:0.24rem;
+        color:#c0c0c0;
+        border:0;
+        float:right;
+     }
+
+    .price>div:last-child span{
+        width: 1.4rem;
+        font-size:0.22rem;
+     }
+
+
+    .price>div:last-child span i{
+        font-style:normal;
+        color:#d4892e;
+     }
+
+
+    .main-down .pinfang{
+        width: 5rem;
+
+        font-size: 0.22rem;}
+
+
+
+    .main-down .pinfang input {
+        display: block;
+        float:left;
+
+    }
+
+       /*.main-down .pinfang .ok{
+         margin-top: 0.2rem;
+       }
+*/
+
+
+    .solid{
+        width: 5.43rem;
+        height: 1px;
+        background-color:#cbcbcb;
+        margin:0 auto;
+    }
+
+    .shengming{
+        margin-bottom:1rem;
+    }
+
+    .shengming p{
+        width: 3.4rem;
+        line-height:0.8rem;
+        font-size:0.26rem;
+        float:left;
+
+    }
+
+    .shengming input{
+        display: block;
+        width: 0.3rem;
+        height: 0.3rem;
+        margin-top:0.2rem;
+        float:left;
+        margin:0.25rem 0 0 1.37rem;
+    }
+
+    .xianlu ul li{
+        font-size: 0.24rem;
+        line-height: 0.44rem;
+        margin-left: 0.38rem;
+        list-style:none;
+    }
+    .xianlu ul li:first-child{
+        padding-top: 0.09rem;
+        font-weight:600;
+        font-size:0.24rem;
+    }
+    .num{
+        width: 0.3rem;
+        text-align: center;
+    }
+    .last{
+        padding-bottom: 0.2rem;
+    }
+ /*   .last>span{
+        display: block;
+        float: left;
+    }
+    .last>form{
+        float: left;
+    }*/
+    .biaoti>i,.biaoti>span{
+        display: block;
+        float: left;
+    }
+    .biaoti>span{
+        width: 1.18rem;
+    }
+    .biaoti>span+span{
+        margin-left: 0.24rem;
+    }
+
+    .list{
+        padding-top: 0.05rem;
+        padding-bottom: 0.24rem;
+    }
+    .list>div{
+        border-bottom: 1px solid #dadada;
+        width: 5.4rem;
+        margin: 0 auto;
+        line-height: 0.43rem;font-size: 0.24rem;
+    }
+    .list div span{
+        color:#62b9e6;
+        font-size: 0.24rem;
+    }
+    .list input{
+        border: 0;
+        outline: 0;
+    }
+
+    .list select{
+
+        width: 1rem;
+        line-height: 0.6rem;
+        font-size:0.22rem;
+
+
+    }
+
+    .xianlu>a img{
+        display: block;
+        width: 0.36rem;
+        height: 0.47rem;
+        margin-left:2.5rem ;
+    }
+
+
+
+
+
+    footer{
+        width: 6.4rem;
+        background-color: #fff;
+        overflow:hidden;
+        position:fixed;
+        left:0;
+        bottom:0rem;
+
+    }
+
+    footer>p{
+        width: 2.2rem;
+        line-height:1rem;
+        font-size:0.3rem;
+        color:#ff9024;
+        float:left;
+    }
+
+     footer>a{
+        display: block;
+        width: 2.4rem;
+        line-height:0.66rem;
+        font-size:0.3rem;
+        text-decoration: none;
+        background-color:#50bbdb;
+        color:#fff;
+        text-align:center;
+        float:right;
+        margin:0.15rem 0.24rem 0 0;
+
+     }
+
+

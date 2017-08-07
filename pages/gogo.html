@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+        <title>出发日期</title>
+        <script>
+         document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+        </script>
+        <link rel="stylesheet" href="../css/gogo.css" />
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="head">
+                 <div class="top clearfix">
+             <a href="commodity.html"><img src="../images/back.jpg" alt="" /></a>
+            <h1>北京出发</h1>
+            </div>
+                <div class="down">
+                   <img src="../images/rili_02.jpg" alt="" />
+                </div>
+            </div>
+
+                <div class="main clearfix">
+                    <div class="main-left">
+                        <div class="up clearfix">
+                            <span>成人</span>
+                            <p>￥<i>5280</i></p>
+                        </div>
+                        <div class="down clearfix">
+                            <button class="sub">-</button>
+                            <input type="text" value="1">
+                            <button class="add">+</button>
+                        </div>
+
+                    </div>
+                    <div class="main-right">
+                        <div class="up clearfix">
+                            <span>成人</span>
+                            <p>￥<i>2080</i></p>
+                        </div>
+                        <div class="down clearfix">
+                            <button class="sub">-</button>
+                            <input type="text" value="1">
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </div>
+
+          <footer>
+            <div class="foot-up">
+                <p>
+                <img src="../images/gantanhao_05.png" alt="" />日历价格为起价，订单最终价格以确定出游方案为准
+
+                </p>
+
+            </div>
+            <div class="foot-mid"></div>
+            <div class="foot-down clearfix">
+             <div><span>3成人</span>
+                <span>团期：2016-01-28</span></div>
+
+                <a href="tianxiedingdan.html">下一步</a>
+            </div>
+          </footer>
+        </div>
+
+        <script>
+            //点击加法减数
+            var countArr=document.querySelectorAll(".main .down")
+             var price=parseFloat(document.querySelector(".up p>i").innerText)
+            for(var i in countArr){
+                countArr[i].onclick=function(event){
+                    var ele=event.target
+                    var num=parseFloat(ele.parentNode.querySelector(".down input").value)
+
+                    switch(ele.className){
+                        case "add":num++;
+                        ele.parentNode.querySelector(".down input").value=num;
+
+                        ele.parentNode.parentNode.querySelector(".up p>i").innerText=num*price;
+                        break;
+
+
+                        case "sub":if(num>1){
+                            num--;
+                        }
+                          var price1=parseFloat(ele.parentNode.parentNode.querySelector(".up p>i").innerText)
+                        ele.parentNode.querySelector(".down input").value=num;
+
+                        ele.parentNode.parentNode.querySelector(".up p>i").innerText=num*price;
+                        break;
+
+                    }
+                }
+            }
+        </script>
+
+
+
+
+
+
+    </body>
+</html>

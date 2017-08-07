@@ -1,0 +1,494 @@
+  html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;}
+
+    .clearfix:before,
+    .clearfix:after {
+    content: "";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/}
+
+    .clearfix { *zoom:1;}   /*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
+
+      body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"微软雅黑"!important;}
+
+     .wrap{
+        width: 6.4rem;
+        margin:0 auto;
+    }
+
+    .top {
+        width: 6.4rem;
+        height: 0.9rem;
+        background-color:#50bbdb;
+    }
+
+    .top>a img{
+        width: 0.88rem;
+        height: 0.88rem;
+        display: block;
+        float:left;
+     }
+
+    .top h1{
+        font-size:0.3rem;
+        color:#eff0fb;
+        float:left;
+        line-height:0.9rem;
+        margin:0 0 0 1.38rem;
+     }
+
+
+    .banner{
+        position:relative;
+    }
+
+    .banner>a img{
+        width: 6.4rem;
+        height:3.6rem;
+        position:relative;
+
+     }
+
+    .banner .yinying{
+        width: 6.4rem;
+        line-height: 0.54rem;
+        background-color:rgba(142, 139, 134, 0.4);
+        position:absolute;
+        bottom:0.3rem;
+        left:0;
+        font-size:0.28rem;
+        text-indent:6px;
+        color:#f5f5f5;
+    }
+
+
+
+
+    /*    main开始*/
+
+    .main{
+        width: 6.4rem;
+        margin:0 auto;
+   }
+
+    .main .main-top{
+        margin:0 0 0.16rem 0.3rem;
+        width: 5rem;
+        font-size:0.32rem;
+        float:left;
+    }
+
+    .main .main-top a{
+        text-decoration: none;
+        color:#181717;
+    }
+
+     .main .main-top p{
+         font-size:0.24rem;
+     }
+
+    .main .main-top p>span{
+        color:#f48819;
+        font-size:0.34rem;
+    }
+
+    .main .anniu img{
+        display: block;
+        width: 1rem;
+        height: 1.09rem;
+
+    }
+    .main .anniu{
+        float:right;
+    }
+
+  /*  .main .main-mid>a img{
+        display: block;
+        width: 6.4rem;
+        height: 2rem;
+    }*/
+
+
+    .main .main-mid .date{
+        padding:0.69rem 0.1rem 0.36rem 0.1rem;
+
+    }
+    .main .main-mid .date p{border-radius:8px;
+        margin:0.59rem 0.23rem 0.2rem 0.2rem;
+        background-color: #fff;
+        font-size: 0.26rem;
+        position:relative;
+    }
+    .main .main-mid .date p span{
+        color:#323232;
+        display:block;
+        width: 5rem;
+        float:left;}
+    .main .main-mid .date p input{
+        font-size: 0.2rem;
+        line-height: 0.3rem;
+        border:1px solid #cdcdcd;
+        margin-right: 0.16rem;
+        padding:0 0.1rem;
+        text-align: center;
+        width: 0.72rem;
+    }
+    .main .main-mid .date p a{
+        display:block;
+        float:left;
+        line-height: 0.78rem;
+        position:absolute;
+        top:0.2rem;
+        left:5.75rem;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+    .main .main-mid ul{
+        list-style:none;
+        border-bottom:1px solid #737373;
+    }
+
+    .main .main-mid ul li{
+        float:left;
+        line-height:0.65rem;
+        width: 2.1rem;
+        text-align:center;
+    }
+
+    .main .main-mid ul li:first-child{
+        border-bottom:2px solid #34a1c0;
+    }
+
+
+    .main .main-mid ul li a{
+        text-decoration: none;
+        color:#000;
+        font-size:0.32rem;
+        font-weight:700;
+    }
+
+     .main .main-mid ul li:first-child a{
+        color:#34a1c0;
+     }
+
+     .main .main-down {
+
+        width: 6.4rem;
+     }
+     .main .main-down h3,
+    .main .main-down h4, footer>h4{
+        line-height:0.46rem;
+        background-color:#f5f5f5;
+        color:#292929;
+        font-size:0.26rem;
+        text-align:center;
+        margin-top:0.33rem;
+ }
+    .main .main-down ul{
+        list-style:none;
+        margin-top:0.3rem;
+        width: 5.78rem;
+        margin:0 auto;
+
+    }
+    .main .main-down ul li{
+        font-size:0.24rem;
+        line-height:0.3rem;
+        float:left;
+
+    }
+
+     .main .main-down ul li span{
+        display: block;
+        float:left;
+     }
+
+     .main .main-down ul li img{
+        display: block;
+        width: 5.72rem;
+        height:3.72rem;
+     }
+
+    .main .main-down>p{
+        width: 6.4rem;
+        height: 0.22rem;
+        background-color:#d4d4d4;
+        margin-top:0.26rem;
+       }
+
+    .main .main-down .slider img{
+        width: 0.63rem;
+        height: 29.81rem;
+        float:left;
+
+    }
+
+    .main-down .road{
+
+    }
+
+    .main-down .road h5{
+        width: 5.3rem;
+        font-size:0.3rem;
+        color:#4ebcdf;
+        line-height:0.5rem;
+        border-bottom:1px solid #4ebcdf;
+        margin:0.4rem 0 0 0.2rem;
+      }
+
+    .main-down .road p{
+        margin:0 0 0.2rem;
+        width: 4.5rem;
+        font-size:0.24rem;
+        color:#363636;
+        line-height:0.66rem;
+        border-bottom:1px dashed #dcdcdc;
+        float:left;
+
+      }
+
+    .main-down .road .word{
+        width: 5rem;
+        line-height:0.3rem;
+        color:#676767;
+        border:0;
+        /*margin-bottom:0.2rem;*/
+      }
+
+    .main-down .road .word img{
+        display: block;
+        width: 5rem;
+        height: 4.14rem;
+        margin-top:0.1rem;
+      }
+
+    .main .last a:first-child{
+        width: 1.6rem;
+        height: 0.98rem;
+        display: block;
+    }
+
+    .main .last a{
+        width: 1.6rem;
+        height: 0.98rem;
+        display: block;
+    }
+
+    .main .last a:last-child{
+        display: block;
+        width: 3.2rem;
+        height: 0.99rem;
+    }
+    .main .last span{
+        width: 1.6rem;
+        height: 0.98rem;
+        display: block;
+        display:none;
+    }
+
+
+     /*   footer开始*/
+
+    footer{
+        width: 6.4rem;
+        margin:0 auto;
+     }
+
+    footer>p{
+        width: 6.4rem;
+        height: 0.22rem;
+        background-color:#d4d4d4;
+        margin-top:0.26rem;
+     }
+
+    .foot-top{
+        width: 5.75rem;
+        margin:0 auto;
+    }
+
+    .foot-top span{
+        font-size:0.3rem;
+        display: block;
+        font-weight:700;
+
+    }
+
+    .foot-top p{
+        width: 5.75rem;
+        font-size:0.28rem;
+        line-height:0.5rem;
+     }
+
+    .foot-mid h3,.foot-mid h4{
+        line-height:0.46rem;
+        background-color:#f5f5f5;
+        color:#292929;
+        font-size:0.28rem;
+        text-align:center;
+        margin-top:0.48rem;
+        width: 6.4rem;
+        float:left;
+     }
+
+    .foot-mid>a{
+        display: block;
+        width: 5.8rem;
+        margin:0 auto;
+        line-height:0.5rem;
+        font-size:0.26rem;
+        border-bottom:1px solid #c2c2c2;
+        text-decoration: none;
+        color:#5c5c5c;
+        overflow:hidden;
+
+     }
+    .foot-mid .logo{
+        width: 2.36rem;
+        float:left;
+    }
+
+    .foot-mid>a i{
+        font-style:normal;
+        margin-left:2.6rem;
+    }
+
+    .foot-mid>a img{
+        display: block;
+        width: 2.36rem;
+        height: 1.9rem;
+
+
+    }
+
+    .foot-mid>p a{
+        text-decoration: none;
+        color:#5c5c5c;
+
+    }
+
+
+
+
+  /*  .foot-mid a{
+        float:left;
+    }*/
+    .foot-mid p{
+        width: 3.4rem;
+        font-size:0.26rem;
+        color:#a5a5a5;
+        float:right;
+    }
+
+    .foot-mid>img,.foot-down>img{
+        display: block;
+        width: 6.4rem;
+        height: 1.58rem;
+
+    }
+
+    .foot-mid .pingjia{
+        width: 5.8rem;
+        margin:0 auto;
+        float:none;
+        overflow:hidden;
+
+   }
+
+    .foot-mid .pingjia img{
+        display: block;
+        width: 1.05rem;
+        height: 0.65rem;
+        margin-left:0.1rem;
+        float:left;
+   }
+
+   .foot-down p{
+        width: 5.7rem;
+        margin:0 auto;
+        font-size:0.28rem;
+        color:#878787;
+        overflow:hidden;
+   }
+
+    .foot-down p img{
+        display: block;
+        width: 1.05rem;
+        height: 0.65rem;
+        margin-left:0.2rem;
+        float:left;
+    }
+
+    .foot-down .replay{
+        height: 2.2rem;
+        background-color: #f4f4f4;
+        margin-top:0.35rem;
+        margin-bottom:0.3rem;
+    }
+
+    .foot-down .replay span{
+        display: block;
+        color:red;
+        font-size:0.22rem;
+        line-height:0.5rem;
+        margin-left:0.34rem;
+    }
+
+    .foot-down .replay p{
+        width: 4.46rem;
+        font-size:0.22rem;
+        margin-left:1.8rem;
+    }
+
+
+    footer .last{
+        position:relative;
+    }
+    footer .last a img{
+        width: 1.6rem;
+        height: 0.98rem;
+        display: block;
+        float:left;
+    }
+
+    footer .last a:last-child img{
+        display: block;
+        width: 3.2rem;
+        height: 0.99rem;
+    }
+    footer .last .shoucang1 img{
+        width: 1.6rem;
+        height: 0.98rem;
+      /*  margin-left:-1.6rem;*/
+
+
+    }
+
+       footer .last .shoucang1{
+            display:none;
+       }
+

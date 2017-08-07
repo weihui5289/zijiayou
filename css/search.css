@@ -1,0 +1,355 @@
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;}
+
+    .clearfix:before,
+    .clearfix:after {
+    content: "";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/}
+
+    .clearfix { *zoom:1;}   /*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
+
+
+        @font-face {
+      font-family: 'iconfont';
+      src: url('../sources/iconfont.eot');
+      src: url('../sources/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../sources/iconfont.woff') format('woff'),
+      url('../sources/iconfont.ttf') format('truetype'),
+      url('../sources/iconfont.svg#iconfont') format('svg');
+    }
+
+
+        .iconfont{
+        font-family:"iconfont" !important;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"微软雅黑"!important;}
+
+
+    .wrap{
+        width: 6.4rem;
+        margin:0 auto;
+    }
+
+    .top {
+        width: 6.4rem;
+        height: 0.9rem;
+        background-color:#50bbdb;
+    }
+
+    .top>a img{
+        width: 0.88rem;
+        height: 0.88rem;
+        display: block;
+        float:left;
+     }
+
+     .top h1{
+        font-size:0.3rem;
+        color:#eff0fb;
+        float:left;
+        margin:0.1rem 0 0 1.08rem;
+     }
+
+     .top h1 span{
+        display: block;
+        margin-left:0.3rem;
+        font-size:0.1rem;
+     }
+
+     .top .circle{
+        width: 1rem;
+        line-height:0.9rem;
+        float:right;
+     }
+
+     .top .circle p{
+        width: 0.16rem;
+        height: 0.16rem;
+        border-radius:50%;
+        background-color: #fff;
+        float:left;
+        margin-right:0.12rem;
+        margin-top:0.4rem;
+     }
+
+
+
+    /* main开始*/
+    .show{
+        position:relative;
+        width: 6.4rem;
+        height: 1.7rem;
+
+
+    }
+
+    .main .show>a>img{
+        display: block;
+        width: 1.8rem;
+        height: 1.7rem;
+        float:left;
+
+    }
+
+    .main .show .yinying{
+        width: 1.8rem;
+        line-height: 0.3rem;
+        background-color:rgba(142, 139, 134, 0.4);
+        position:absolute;
+        bottom:0rem;
+        left:0;
+        font-size:0.16rem;
+        text-indent:6px;
+        color:#f5f5f5;
+    }
+
+    .show .main-right{
+        width: 4.6rem;
+        float:left;
+
+    }
+
+    .main .main-right>p{
+        width: 4.5rem;
+        font-size:0.26rem;
+        font-weight:600;
+        margin-top:0.1rem;
+        margin:0 0.1rem;
+    }
+
+    .main .main-right>p span{
+        width: 4.3rem;
+        line-height: 0.5rem;
+        font-weight:normal;
+        font-size:0.26rem;
+    }
+
+    .main .main-right>p em{
+        color:#a5a5a5;
+        font-size:0.23rem;
+
+    }
+
+    .main-right .show-last{
+        width: 4.5rem;
+        line-height: 0.54rem;
+
+    }
+    .main-right .show-last>a img{
+        display: block;
+        width: 0.49rem;
+        height: 0.5rem;
+        float:left;
+    }
+
+    .main-right .show-last>span{
+        font-size:0.25rem;
+        float:left;
+    }
+
+     .main-right .show-last>p{
+        font-size:0.25rem;
+        float:left;
+        color:#ffa058;
+        margin-left:0.48rem;
+     }
+
+     .main-right .show-last>p a{
+        text-decoration: none;
+        font-size:0.4rem;
+        color:#ffa058;
+
+     }
+
+     .main .tab{
+        width: 6.4rem;
+        height: 0.18rem;
+        background-color:#f6f6f6;
+     }
+
+    .main .tab1{
+        width: 6.4rem;
+        height: 0.18rem;
+        margin-bottom:1.5rem;
+     }
+
+
+
+     /* <!--  footer开始 -->*/
+
+    footer>div{
+        font-size:0.55rem;
+        margin-top:0.14rem;
+    }
+
+    footer>div a{
+        text-decoration: none;
+    }
+
+    footer>div .cont1{
+        margin-left:0.42rem ;
+        color:#88c2d8;
+    }
+
+    footer>div .cont2{
+        margin-left:1rem;
+        color:#b3b3b3;
+    }
+
+     footer>div .cont3{
+        margin-left:1rem;
+        color:#b3b3b3;
+    }
+
+     footer>div .cont4{
+        margin-left:0.74rem;
+        color:#b3b3b3;
+    }
+
+    .nav ul{
+        list-style:none;
+    }
+
+    .nav ul li{
+        float:left;
+    }
+    .nav ul li:first-child{
+         margin-left:0.3rem;
+
+    }
+
+    .nav ul li:nth-child(2){
+         margin-left:0.4rem;
+    }
+
+     .nav ul li:nth-child(3){
+         margin-left:0.5rem;
+         margin-right:0.3rem;
+    }
+    .nav ul li a{
+        display: block;
+        width: 1.2rem;
+        line-height: 0.42rem;
+        color:#5a5757;
+        text-decoration: none;
+        font-size:0.26rem;
+
+    }
+
+    .nav ul li .first{
+        color:#88c2d8;
+    }
+
+    footer{
+        width: 6.4rem;
+        position:fixed;
+        bottom:0;
+        left:0;
+        background-color: #fff;
+
+    }
+
+    .show2{
+       display:block;
+    }
+
+/*//选项卡*/
+    .tab3{
+        font-size: 0.22rem;
+        position:fixed;
+        left:0;
+        bottom:1.2rem;
+        z-index:4;
+        display:none;
+
+
+    }
+    .nav-tab{
+        padding-left: 0.3rem;
+        line-height: 0.7rem;
+        background-color: #50bbdb;
+    }
+    .nav-tab li{
+        float: left;
+        list-style:none;
+    }
+    .nav-tab li a{
+        color: white;
+        text-decoration: none;
+        font-size:0.24rem;
+    }
+    .qingkong{
+        margin:0 2rem 0 2rem;
+    }
+    .tab-down{
+        width: 6.4rem;
+    }
+    .list{
+        width: 1.95rem;
+        float: left;
+        line-height: 0.68rem;
+        padding-bottom:0.68rem;background-color: #ebebeb;
+    }
+    .list li{
+        padding-left: 0.3rem;
+        font-size:0.28rem;
+
+    }
+    .white{
+        background-color: white;
+        color: #50bedf;
+    }
+    #show{
+        width: 4.42rem;
+        float: left;
+    }
+    #show ul{
+        width: 4.12rem;
+        margin: 0 auto;
+        list-style:none;
+    }
+    #show ul li{
+        line-height: 0.68rem;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    #show ul li span{
+        padding-left: 0.63rem;
+        display: block;
+        float: left;
+        font-size:0.28rem;
+    }
+    #show ul li input{
+        float: right;
+        display: block;
+        width: 0.44rem;
+        height: 0.34rem;
+
+        margin-top: 0.25rem;
+    }
+    .none{
+        display: none;
+    }

@@ -1,0 +1,146 @@
+ html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;}
+
+    .clearfix:before,
+    .clearfix:after {
+    content: "";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/}
+
+    .clearfix { *zoom:1;}   /*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
+
+    body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"微软雅黑"!important;}
+
+    .wrap{
+        width: 6.4rem;
+        margin:0 auto;
+    }
+
+    .top {
+        width: 6.4rem;
+        height: 0.9rem;
+        background-color:#50bbdb;
+    }
+
+    .top>a img{
+        width: 0.88rem;
+        height: 0.88rem;
+        display: block;
+        float:left;
+     }
+
+    .top h1{
+        font-size:0.3rem;
+        color:#eff0fb;
+        float:left;
+        line-height:0.9rem;
+        margin:0 0 0 1.38rem;
+     }
+
+    .top>a:last-child{
+        display: block;
+        font-size:0.3rem;
+        width: 0.8rem;
+        line-height: 0.8rem;
+        color:#fff;
+        float:right;
+        text-decoration: none;
+
+     }
+
+    .tour{
+        width: 6.4rem;
+        border-bottom: 1px solid #dcdcdc;
+        padding-bottom: 0.14rem;
+    }
+
+    .tour p{
+        margin-top:0.14rem;
+        text-align: center;
+        font-size: 0.3rem;
+    }
+    .tour p span{
+        color: #57b5d1;
+    }
+
+    .name{
+        overflow: hidden;
+        width: 6.4rem;
+        border-bottom: 1px solid #dcdcdc;
+        padding-bottom: 0.16rem;
+    }
+    .name a{
+
+        text-decoration: none;
+    }
+    .name a img{
+        width: 0.6rem;
+        height: 0.6rem;
+        display: block;
+        float:left;
+
+    }
+    .name p{
+        margin-top:0.15rem;
+        float: left;
+        font-size: 0.3rem;
+        margin-left: 0.2rem;
+    }
+
+    .name input{
+        display: block;
+        margin-top:0.18rem;
+        float: right;
+        width: 0.3rem;
+        height: 0.3rem;
+        background-color: #fff;
+        border:1px solid #7ec8d5;
+        margin-right: 0.2rem;
+        border-radius:50%;
+        outline:0;
+
+
+    }
+
+    .add{
+        overflow: hidden;
+        background-color: #50bbdb;
+        width: 6.4rem;
+        bottom: 0rem;
+        margin-top:6.2rem;
+
+    }
+    .add img{
+        width: 0.41rem;
+        height: 0.41rem;
+        margin-left:1.5rem;
+
+    }
+    .add a{
+        margin-bottom: 0.36rem;
+        margin-top:0.34rem;
+        float: left;
+        text-decoration: none;
+        font-size: 0.32rem;
+        margin-left: 0.24rem;
+        color: #fff;
+    }

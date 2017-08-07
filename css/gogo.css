@@ -1,0 +1,184 @@
+ html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td
+     {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+    content: "";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/}
+
+    .clearfix { *zoom:1;}   /*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
+
+      body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"微软雅黑"!important;}
+
+    .top {
+        width: 6.4rem;
+        height: 0.9rem;
+        background-color:#50bbdb;
+    }
+
+    .top>a img{
+        width: 0.88rem;
+        height: 0.88rem;
+        display: block;
+        float:left;
+     }
+
+    .top h1{
+        font-size:0.3rem;
+        color:#eff0fb;
+        float:left;
+        line-height:0.9rem;
+        margin:0 0 0 1.38rem;
+     }
+
+     .down img{
+        display: block;
+        width: 6.4rem;
+        height: 5.03rem;
+     }
+
+    .main{
+        width: 6.4rem;
+        margin:0 auto;
+
+         border-bottom:1px solid #dbdbdb;
+    }
+
+    .main-left,.main-right{
+        width: 2rem;
+        height: 1rem;
+        margin:0.14rem 0.6rem 0.3rem 0.33rem;
+        float:left;
+
+    }
+
+    .main-left .up span,.main-right .up span{
+        width: 0.6rem;
+        line-height:0.6rem;
+        font-size:0.26rem;
+        display: block;
+        float:left;
+        margin-right:0.1rem;
+    }
+
+    .main-left .up p,.main-right .up p{
+         width: 1rem;
+         line-height:0.6rem;
+         font-size:0.28rem;
+         color:#f08519;
+         float:left;
+    }
+
+    .main-left .up i,.main-right .up i{
+        font-style:normal;
+    }
+
+    .main-left .down button,.main-right .down button{
+        display: block;
+        width: 0.5rem;
+        line-height:0.47rem;
+        font-size: 0.4rem;
+        color:#50bbdb;
+        background-color: #fff;
+        border:1px solid #50bbdb;
+        float:left;
+        border-radius:5px 0 0 5px;
+    }
+
+    .main-left .down button:last-child,.main-right .down button:last-child{
+          border-radius:0 5px 5px 0;
+    }
+
+
+
+    .main-left .down input,.main-right .down input{
+        display: block;
+        width: 0.7rem;
+        height: 0.5rem;
+        background-color:#50bbdb;
+        color:#e4edee;
+        text-align:center;
+        border:0;
+        float:left;
+
+    }
+
+
+    footer{
+        width: 6.4rem;
+        margin:0 auto;
+    }
+
+
+    .foot-up p{
+        width: 5.4rem;
+        margin:0 auto;
+        font-size:0.22rem;
+        line-height:0.62rem;
+    }
+
+     .foot-up p img{
+        width: 0.23rem;
+        line-height:0.23rem;
+     }
+
+    .foot-mid{
+        height: 0.54rem;
+        background-color:#ededed;
+    }
+    .foot-down{
+        width: 5.96rem;
+        margin:0 auto;
+    }
+
+    .foot-down>div span{
+        display: block;
+        width:3rem;
+        font-size:0.32rem;
+        color:#000;
+        line-height:0.5rem;
+
+    }
+
+    .foot-down>div{
+        float:left;
+    }
+
+
+
+    .foot-down a{
+        display: block;
+        width: 2.34rem;
+        line-height:0.64rem;
+        background-color:#50bbdb;
+        font-size:0.32rem;
+        text-align:center;
+        text-decoration: none;
+        color:#fff;
+        float:right;
+        margin-top:0.18rem;
+    }
+
+

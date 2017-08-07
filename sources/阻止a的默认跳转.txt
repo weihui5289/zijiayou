@@ -1,0 +1,7 @@
+<a href="javascript:void(0)"></a>
+<a href="javascript:;"></a>
+<a href="#"></a>
+
+以上三种写在html上均可以不让a跳转 但第三种url上会多一个#
+
+还有就是学过的 在事件里面写  event.preventDefault() 或  return false

@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;}
+
+    .clearfix:before,
+    .clearfix:after {
+    content: "";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/}
+
+    .clearfix { *zoom:1;}   /*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
+
+      body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"微软雅黑"!important;}
+
+
+    .wrap{
+        width: 6.4rem;
+    }
+
+    .hear{
+        overflow: hidden;
+        width: 6.4rem;
+        line-height: 0.88rem;
+        background-color: #50bbdb;
+    }
+    .hear>a img{
+        width: 0.88rem;
+        height: 0.88rem;
+        display: block;
+        float:left;
+    }
+    .hear p{
+        float: left;
+        font-size: 0.26rem;
+        margin-left: 1.42rem;
+        color: #fff;
+    }
+    .hear .right{
+        float: right;
+        margin-right: 0.21rem;
+        display: block;
+        width: 0.6rem;
+        height: 0.44rem;
+    }
+    .top{
+        overflow: hidden;
+        width: 6.4rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #dcdcdc;
+
+    }
+    .top p{
+        margin-left: 0.16rem;
+        margin-top:0.22rem;
+        line-height: 0.44rem;
+        float: left;
+        font-size: 0.24rem;
+    }
+    .top>a{
+        float: right;
+        font-size: 0.68rem;
+        margin-top:0.15rem;
+        margin-right: 0.24rem;
+        color: #d2d2d2;
+        text-decoration: none;
+    }
+    .xinxi{
+        width: 6.4rem;
+        border-bottom: 1px solid #dcdcdc;
+        padding-bottom: 0.32rem;
+    }
+    .xinxi p{
+        font-size: 0.28rem;
+        width: 1.24rem;
+        border-left: 3px solid #53bbd4;
+        padding-left: 0.2rem;
+        margin-left: 0.28rem;
+        margin-top:0.24rem;
+    }
+    .xinxi ul{
+        margin-top: 0.26rem;
+    }
+    .xinxi ul li{
+        margin-left: 0.5rem;
+        list-style: none;
+        font-size: 0.24rem;
+        line-height: 0.44rem;
+
+    }
+    .mian{
+        width: 6.4rem;
+    }
+    .main .fei{
+        float: left;
+        width: 6.4rem;
+        border-bottom: 1px solid #dbdbdb;
+        padding-bottom: 0.12rem;
+    }
+    .fei h3{
+        margin-top:0.24rem;
+        margin-left: 0.28rem;
+        border-left: 3px solid #53bbd4;
+        padding-left: 0.2rem;
+        font-size: 0.24rem;
+    }
+    .fei p{
+        margin-left: 0.5rem;
+        float: left;
+        font-size: 0.2rem;
+        margin-top:0.24rem;
+
+    }
+    .fei p>span{
+        margin-left: 0.5rem;
+    }
+    .zong{
+        overflow: hidden;
+        width: 6.4rem;
+        padding-top:0.12rem;
+        border-bottom: 1px solid #dbdbdb;
+        padding-bottom: 0.34rem;
+    }
+    .zong p:nth-child(1){
+        font-size: 0.2rem;
+        margin-left: 3.02rem;
+    }
+    .zong p>span{
+            margin-left: 0.5rem;
+    }
+    .zong p:nth-child(2){
+        margin-top:0.24rem;
+        font-size: 0.2rem;
+        margin-left: 3.02rem;
+
+    }
+    .baoxian{
+        overflow: hidden;
+        width: 6.4rem;
+        border-bottom: 1px solid #dbdbdb;
+        padding-bottom: 0.34rem;
+    }
+    .baoxian h3{
+        font-size: 0.24rem;
+        margin-top:0.24rem;
+        margin-left: 0.28rem;
+        border-left: 3px solid #53bbd4;
+        padding-left: 0.2rem;
+    }
+    .baoxian p{
+        margin-top:0.24rem;
+        margin-left: 0.5rem;
+        font-size: 0.2rem;
+    }
+    .baoxian p:nth-child(2)>span{
+        margin-left: 2.56rem;
+    }
+    .baoxian p:nth-child(3)>span{
+        margin-left: 2.3rem;
+    }
+    .baoxian p:nth-child(4)>span{
+        margin-left: 1.97rem;
+    }
+    .lianxi{
+        overflow: hidden;
+        width: 6.4rem;
+        border-bottom: 1px solid #dbdbdb;
+        padding-bottom: 0.34rem;
+    }
+    .lianxi h3{
+        font-size: 0.24rem;
+        margin-top:0.24rem;
+        margin-left: 0.28rem;
+        border-left: 3px solid #53bbd4;
+        padding-left: 0.2rem;
+    }
+    .lianxi p{
+        margin-top:0.24rem;
+        margin-left: 0.5rem;
+        font-size: 0.2rem;
+    }
